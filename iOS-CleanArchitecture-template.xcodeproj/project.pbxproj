@@ -10,9 +10,58 @@
 		4CFCDCEA30B1ABDB00B37B7D /* iOS-CleanArchitecture-template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CleanArchitecture-template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4CFCDE5E30B1B83D00B37B7D /* Exceptions for "iOS-CleanArchitecture-template" folder in "iOS-CleanArchitecture-template" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/Components/.gitkeep,
+				Core/Constants/.gitkeep,
+				Core/DesignSystem/.gitkeep,
+				Core/ErrorHandling/.gitkeep,
+				Core/Extensions/.gitkeep,
+				Core/Logging/.gitkeep,
+				Core/Modifier/.gitkeep,
+				Core/Protocols/.gitkeep,
+				Core/Security/.gitkeep,
+				Core/Utilities/.gitkeep,
+				Core/Validation/.gitkeep,
+				Data/DataSource/Local/.gitkeep,
+				Data/DataSource/Remote/.gitkeep,
+				Data/DTOs/.gitkeep,
+				Data/LocalStorage/.gitkeep,
+				Data/Mappers/.gitkeep,
+				Data/Models/.gitkeep,
+				Data/Network/.gitkeep,
+				Data/Repositories/.gitkeep,
+				Data/Services/.gitkeep,
+				Domain/Entities/.gitkeep,
+				Domain/Repositories/.gitkeep,
+				Domain/UseCases/.gitkeep,
+				Features/Authentication/View/.gitkeep,
+				Features/Authentication/ViewModel/.gitkeep,
+				Features/Home/View/.gitkeep,
+				Features/Home/ViewModel/.gitkeep,
+				Features/Onboarding/Components/.gitkeep,
+				Features/Onboarding/Views/.gitkeep,
+				Features/Profile/View/.gitkeep,
+				Features/Profile/ViewModel/.gitkeep,
+				Resources/Configurations/.gitkeep,
+				Resources/Fonts/.gitkeep,
+				Resources/Localizable/.gitkeep,
+				Shared/Components/.gitkeep,
+				Shared/Extensions/.gitkeep,
+				Shared/State/.gitkeep,
+			);
+			target = 4CFCDCE930B1ABDB00B37B7D /* iOS-CleanArchitecture-template */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4CFCDCEC30B1ABDB00B37B7D /* iOS-CleanArchitecture-template */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4CFCDE5E30B1B83D00B37B7D /* Exceptions for "iOS-CleanArchitecture-template" folder in "iOS-CleanArchitecture-template" target */,
+			);
 			path = "iOS-CleanArchitecture-template";
 			sourceTree = "<group>";
 		};
